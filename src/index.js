@@ -1,4 +1,4 @@
-export const IbexaPageBuilderBlockRefresher = (fn, ibexaVersion = "3.*") => {
+export const IbexaPageBuilderBlockRefresher = (ibexaVersion = "3.*", fn) => {
     const supportedVersions = ["ezplatform", "3.*", "4.*"];
     if(supportedVersions.includes(ibexaVersion)){
         let eventName = "";
@@ -33,7 +33,7 @@ export const IbexaPageBuilderBlockRefresher = (fn, ibexaVersion = "3.*") => {
                                 const blockElement = document.querySelector(`[${dataIdReference}="${blockId}"] > .${classPreviewReference}`).children[0]; 
                                 fn(blockElement);
                             } else {
-                                console.warn("You must pass a function as a parameter to the IbexaPageBuilderBlockRefresher function");
+                                console.warn("You must pass a function as a first parameter to the IbexaPageBuilderBlockRefresher function");
                             }
                         });
                     } catch (exception) {
