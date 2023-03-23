@@ -18,8 +18,8 @@ export const IbexaPageBuilderBlockRefresher = (ibexaVersion = "3.*", fn) => {
                 break;
             case "4.*":
                 eventName = "ibexa-post-update-blocks-preview";
-                dataIdReference = "";
-                classPreviewReference = "";
+                dataIdReference = "data-ez-block-id";
+                classPreviewReference = "c-pb-block-preview";
                 break;
         }
 
