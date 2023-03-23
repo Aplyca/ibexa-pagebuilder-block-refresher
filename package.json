@@ -1,6 +1,6 @@
 {
   "name": "ibexa-pagebuilder-block-refresher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module help you refresing the blockspreview in Ibexa admin. You can specific a function to render Vue Components, React Components or anything that you need rendering after edit blocks fields. This module supports Ibexa Platform, Ibexa DXP 3.* and Ibexa DXP 4.*",
   "main": "src/index.js",
   "keywords": [],
