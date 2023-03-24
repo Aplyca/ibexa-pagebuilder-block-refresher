@@ -7,9 +7,9 @@ export const IbexaPageBuilderBlockRefresher = (ibexaVersion = "3.*", fn) => {
 
         switch(ibexaVersion){
             case "ezplatform": 
-                eventName = "";
-                dataIdReference = "";
-                classPreviewReference = "";
+                eventName = "ez-post-update-blocks-preview";
+                dataIdReference = "data-ez-block-id";
+                classPreviewReference = "c-block-preview";
                 break;
             case "3.*":
                 eventName = "ez-post-update-blocks-preview";

@@ -8,7 +8,7 @@ It may seem confusing, but you should install this in your Frontend project or w
 ## 1. Install
 ```bash
 
-npm i ibexa-pagebuilder-block-refresher
+npm i @aplyca/ibexa-pagebuilder-block-refresher
 
 ```
 ## 2. Import
