@@ -15,7 +15,7 @@ npm i @aplyca/ibexa-pagebuilder-block-refresher
 You need to import the module in the same file that you create the framework instance.  Por example in this case we use Vue.js and import it in `src/main.js` 
 ```bash
 
-import { IbexaPageBuilderBlockRefresher } from  'ibexa-pagebuilder-block-refresher';
+import { IbexaPageBuilderBlockRefresher } from '@aplyca/ibexa-pagebuilder-block-refresher';
 
 ```
 ## 3. Render, and that's all!
