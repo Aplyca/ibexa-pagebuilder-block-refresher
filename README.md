@@ -1,8 +1,8 @@
 # Description
-This module help you refresing the blockspreview in Ibexa admin. You can specific a function to render Vue Components, React Components or anything that you need rendering after edit blocks fields. This module supports Ibexa Platform, Ibexa DXP 3.* and Ibexa DXP 4.*
+This module help you refresing the blocks preview in Ibexa admin. You can specific a function to render Vue Components, React Components or anything that you need rendering after edit blocks fields. This module supports Ibexa Platform, Ibexa DXP 3.* and Ibexa DXP 4.*
   
 # Considerations
-It may seem confusing, but you should install this in your Frontend project or wherever you make use of your Javascript framework. It doesn't matter your version of Vue, React, etc. You just have to make sure that you specify the version of Ibexa that you are using and a fallback function that renders the block in an instance. 
+Install this in your Frontend project or wherever you make use of your Javascript framework. It doesn't matter your version of Vue, React, etc. You just have to make sure that you specify the version of Ibexa that you are using and a fallback function that renders the block in an instance. 
 
 # How can use it?
 ## 1. Install
