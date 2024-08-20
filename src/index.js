@@ -1,5 +1,5 @@
 export const IbexaPageBuilderBlockRefresher = (ibexaVersion = "3.*", fn) => {
-    const supportedVersions = ["ezplatform", "3.*", "4.*"];
+    const supportedVersions = ["ezplatform", "3.*", "4.*", "4.6.*"];
     if(supportedVersions.includes(ibexaVersion)){
         let eventName = "";
         let dataIdReference = "";
@@ -20,6 +20,11 @@ export const IbexaPageBuilderBlockRefresher = (ibexaVersion = "3.*", fn) => {
                 eventName = "ibexa-post-update-blocks-preview";
                 dataIdReference = "data-ez-block-id";
                 classPreviewReference = "c-pb-block-preview";
+                break;
+            case "4.6.*":
+                eventName = "ibexa-post-update-blocks-preview";
+                dataIdReference = "data-ez-block-id";
+                classPreviewReference = "c-pb-block-preview__inner";
                 break;
         }
 
